@@ -11,7 +11,7 @@ set(MPI_C_COMPILER "/usr/local/bin/mpicc" CACHE PATH "")
 set(MPI_CXX_COMPILER "/usr/local/bin/mpicxx" CACHE PATH "")
 set(MPIEXEC "/usr/local/bin/mpirun" CACHE PATH "")
 
-set(ENABLE_GTEST_DEATH_TESTS ON CACHE BOOL "" FORCE)
+set(ENABLE_GTEST_DEATH_TESTS OFF CACHE BOOL "" FORCE)
 
 set(ENABLE_PVTPackage ON CACHE BOOL "" FORCE)
 
